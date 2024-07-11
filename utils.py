@@ -373,7 +373,7 @@ def plot_images(images, ground_truth, reports):
 
 
 
-def plot_image_and_reports(image, reports, mode_plot_reports='occurrence'):
+def plot_images_and_reports(image, reports, mode_plot_reports='occurrence'):
     # Set up the figure with GridSpec
     fig = plt.figure(figsize=(18, 20))
     gs = gridspec.GridSpec(1, 7, width_ratios=[1, 1, 1, 1, 1,1,1])  # Last column twice as wide
